@@ -2,8 +2,9 @@
   "name": "typescript-react-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://andrey291188.github.io/typescript-react-template/",
+  "homepage": "https://andrey291188.github.io/taxer_test/",
   "dependencies": {
+    "@lapo/asn1js": "^1.2.4",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -42,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/lapo__asn1js": "^1.2.5"
   }
 }

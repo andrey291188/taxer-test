@@ -35,10 +35,12 @@ const Modal = ({ children, toggleModal }: ModalType) => {
 
   return createPortal(
     <StyledBackdrop onClick={backdropClick}>
-      <button className="close-button" onClick={handleClick} type="button">
-        <IoClose size={24} color="black" />
-      </button>
-      <div>{children}</div>
+      <div className="place">
+        <button className="close-button" onClick={handleClick} type="button">
+          <IoClose size={24} color="black" />
+        </button>
+        {children}
+      </div>
     </StyledBackdrop>,
     modalRoot
   );

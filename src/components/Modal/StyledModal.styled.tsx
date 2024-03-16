@@ -10,8 +10,21 @@ export const StyledBackdrop = styled.div`
   overflow: auto;
   display: flex;
   justify-content: center;
-  align-items: center; 
-  
+  align-items: center;
+
+  .place {
+    position: relative;
+    width: 80vh;
+
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(255, 255, 255);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 50px;
+  }
+
   .close-button {
     position: absolute;
     top: 10px;
@@ -29,4 +42,4 @@ export const StyledBackdrop = styled.div`
     overflow: hidden;
     letter-spacing: 1;
   }
-  `
+`;
