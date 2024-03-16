@@ -2,7 +2,7 @@
   "name": "typescript-react-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://andrey291188.github.io/taxer_test/",
+  "homepage": "https://andrey291188.github.io/taxer-test/",
   "dependencies": {
     "@lapo/asn1js": "^1.2.4",
     "@testing-library/jest-dom": "^5.17.0",
